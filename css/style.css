@@ -1,0 +1,312 @@
+#wrapper
+{
+font-size: 0.6875em;
+margin: 0px auto;
+width: 1024px;
+}
+
+body
+{
+	background-color:#C26868;
+	font-family: Cabin,serif;
+	max-width: 100%;
+	max-height:100%;
+}
+section
+{
+	width:100%;
+	position: relative;
+}
+#header
+{
+	position:relative;
+	font-size:2.27em;
+	font-size:2.5vw;
+	font-weight: lighter;
+	list-style-type: none;
+	text-align: center;
+	min-height:6.7%;
+	height:10%;
+	width:100%;
+	top:0;
+	left:0;
+	margin: 0;
+	padding: 0px 0px 2.5% 0px;
+	overflow:hidden;
+	position:absolute;
+}
+#header a:link
+{
+	color:white;
+	text-decoration: none;
+}
+
+#header a:visited
+{
+	color:white;
+	text-decoration: none;
+}
+
+#header a:hover
+{
+	color:white;
+	text-decoration: none;
+}
+#header a:active
+{
+	color:white;
+	text-decoration: none;
+}
+
+#header li
+{
+	position:relative;
+	list-style-type: none;
+	text-transform: uppercase;
+	float:right;
+	font-size:20px;
+	color: white;
+	padding: 0px 0px 12% 0px;
+
+}
+
+.headeritem1
+{
+	width:12.5%;
+	text-align:center;
+	text-decoration: none;
+	border:none;
+	color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.headeritem2
+{
+	background-color:;
+	width:22.5%;
+	text-align:center;
+	text-decoration: none;
+	border: none;
+    color: white;
+    padding: 15px 32px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#illustration
+{
+	position:relative;
+	background-color:#ddd;
+	margin-top:10%;
+	padding: 25px 0px 25px 0px;
+	width:100%;
+}
+
+#mainimage
+{
+	max-width: 75%;
+	max-height:50%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.content
+{
+	background-color:#4C5364;
+}
+.content
+{
+	width:100%;
+	position:relative;
+	text-align:center;
+	list-style-type: none;
+	color:white;
+	font-size:1.3em;
+	font-weight: 4;
+	background-color:#1C4A5A;
+	padding:50px 0px 50px 0px;
+}
+
+.content li
+{
+	display: block;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 2.5%;
+}
+
+#big
+{
+	font-size: 1.95em;
+}
+
+#submit
+{
+	background-color:#1c415c;
+	border:none;
+	margin-top:10%;
+	padding:0.4em 0.5em 0.4em 0.5em;
+	text-decoration: none;
+	font-size:1.3em;
+	border-radius:.25em;
+	color:white;
+}
+
+#services
+{
+	padding: 25px 0px 25px 0px;
+	background-color:;
+	color:#ddd;
+}
+
+#services li
+{
+	display:block;
+}
+
+.serv-left
+{
+	float:left;
+	margin-left:5%;
+}
+
+.serv-left a
+{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#serv-left-heading
+{
+	font-size: 18px;
+	padding-bottom: 1px;
+}
+
+.serv-right
+{
+	margin-left:50%;
+	padding-left:5%;
+	border-top: 0px;
+	border-right: 0.5px;
+	border-bottom: 0px;
+	border-left: 0x;
+	border-style: solid;
+	border-right-color: #a19376;
+}
+
+.serv-right-heading
+{
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#contact-us
+{
+	position:relative;
+	display:inline-block;
+	background-color:#ddd;
+	padding: 25px 0px 25px 0px;
+}
+
+.contact
+{
+	display:inline-block;
+}
+
+#about_us
+{
+	float:left;
+	margin-left:5%;
+	margin-right:18%;
+	margin-bottom: 10%;
+	text-decoration: none;
+	font-size:24px;
+	text-transform: uppercase;
+}
+
+#about_us li
+{
+	display: block;
+	text-decoration-style: none;
+}
+
+#contact_email_header
+{
+	margin-top: 10%;
+	font-size: 18px;
+	color:#696969;
+}
+
+#contact_email
+{
+	margin-top: 10%;
+	font-size: 18px;
+	color:#696969;
+	text-transform: none;
+}
+
+#contact_heading
+{
+	margin-top:5%;
+	font-size:18px;
+}
+
+#appointment_form
+{
+	float:right;
+	display: inline-block;
+	margin-right: 50%;
+	box-sizing: border-box;
+}
+
+#appointment_form input
+{
+	margin-left:-28.5%;
+	margin-top:2.5%;
+	margin-bottom:2.5%;
+	font-size:16px;
+}
+
+#your_name, #your_email,#subject,#msg
+{
+	width: 300%;
+	height:50%;
+	margin-bottom:2.5%;
+	border-width:1.5px;
+	border-style:solid;
+	border-color:#ccc;
+	overflow: visible;
+	padding-top: 1.5%;
+	padding-left:3.5%;
+	padding-bottom: 1.5%;
+}
+#msg
+{
+	padding-bottom:75%;
+}
+
+#send_message
+{
+	box-shadow: none;
+	text-shadow: none;
+	font-family: Cabin,serif;
+}
+
+#footer
+{
+	background-color:#FFE4B5;
+	margin-top:-2.5%;
+	padding-top: .5%;
+	padding-bottom:.5%;
+	float:left;
+}
+#footer li
+{
+	display: block;
+	text-decoration-style: none;
+}
